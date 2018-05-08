@@ -1,0 +1,19 @@
+{
+  "name": "rp-feud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "feud.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "http-server -o",
+    "csv2json": "node csv2json.js"
+  },
+  "author": "sg",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^1.1.9",
+    "http-server": "^0.11.1",
+    "jshint": "^2.9.5"
+  },
+  "devDependencies": {}
+}
